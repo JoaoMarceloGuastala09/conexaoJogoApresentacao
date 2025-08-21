@@ -1,0 +1,8 @@
+.tituloNames {
+    text-align: center;
+    text-size-adjust: 30px;
+}
+
+body {
+    background-image: radial-gradient(red, yellow, green); 
+}
