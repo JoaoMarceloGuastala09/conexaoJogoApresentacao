@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho Denis</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogos</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Little Nightmares & Hollow Knight</header>
-    <h1 class="tituloNames">Hollow Knight</h1>
-    <footer>As imagens utilizadas neste projeto referem-se a jogos eletrônicos desenvolvidos exclusivamente pelos estudantes para fins educacionais. O uso, reprodução e exibição dessas imagens estão autorizados pelos próprios autores, com finalidade restrita ao ambiente escolar e acadêmico.
-        Este material não possui fins comerciais e respeita os direitos de propriedade intelectual dos criadores. Qualquer reprodução externa deverá ser previamente autorizada pelos responsáveis pelo projeto.
-        Projeto desenvolvido no âmbito escolar, com foco em aprendizado, criatividade e inovação.</footer>
+<div class="container">
+    <div class="game-card" id="hollowKnight">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Hollow_Knight_first_cover_art.webp/274px-Hollow_Knight_first_cover_art.webp.png" alt="Hollow Knight">
+    </div>
+    <div class="game-card" id="littleNightmares">
+        <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/424840/ba87af54ef0e5694a98d640c57e7f80370b0b88f.jpg" alt="Little Nightmares">
+    </div>
+</div>
+
+<div class="overlay" id="overlay">
+    <button class="close-btn" id="closeBtn">&times;</button>
+    <div class="overlay-content" id="overlayContent">
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
