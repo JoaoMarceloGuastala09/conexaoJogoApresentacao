@@ -5,3 +5,9 @@ As imagens utilizadas neste projeto referem-se a jogos eletrônicos desenvolvido
 Este material não possui fins comerciais e respeita os direitos de propriedade intelectual dos criadores. Qualquer reprodução externa deverá ser previamente autorizada pelos responsáveis pelo projeto.
 
 Projeto desenvolvido no âmbito escolar, com foco em aprendizado, criatividade e inovação.
+
+
+## Cores
+- #95E6B2
+- #95D2E6
+- 
