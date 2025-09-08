@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: rgba(34, 34, 34, 0.5);
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+.meu-paragrafo {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.logos img {
+    
+    width: 220px;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
+.easter-egg {
+    position: fixed;  
+    bottom: 10px;     
+    right: 10px;      
+    width: 50px;      
+    height: auto;
+    opacity: 0.9;
+    transition: transform 0.3s;
+}
+
+.easter-egg:hover {
+    transform: scale(1.2);
+}
+
+.logo-inicio {
+    height: 50px;
+    width:auto;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #111;
+    padding: 10px;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+
+.personagens-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;       /* ativa o scroll lateral */
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.personagem {
+  flex: 0 0 auto;         /* impede que quebre a linha */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #222;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 250px;       /* cada bloco ocupa esse tamanho */
+  transition: transform 0.3s;
+}
+
+.personagem img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #000;
+  padding: 5px;
+}
+
+.descricao {
+  color: white;
+  max-width: 140px;
+  font-size: 14px;
+}
+
+.personagem:hover {
+  transform: scale(1.05);
+}
