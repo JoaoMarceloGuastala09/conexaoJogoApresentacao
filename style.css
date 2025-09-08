@@ -86,20 +86,20 @@ footer {
 .personagens-scroll {
   display: flex;
   gap: 20px;
-  overflow-x: auto;       /* ativa o scroll lateral */
+  overflow-x: auto;       
   padding: 10px;
   scroll-behavior: smooth;
 }
 
 .personagem {
-  flex: 0 0 auto;         /* impede que quebre a linha */
+  flex: 0 0 auto;         
   display: flex;
   align-items: center;
   gap: 10px;
   background: #222;
   border-radius: 10px;
   padding: 10px;
-  min-width: 250px;       /* cada bloco ocupa esse tamanho */
+  min-width: 250px;       
   transition: transform 0.3s;
 }
 
@@ -119,5 +119,74 @@ footer {
 }
 
 .personagem:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+.body-mylittlepony {
+    background: url('https://cdnb.artstation.com/p/assets/images/images/045/973/597/large/claudia-d-angelo-bg1.jpg?1643983966');
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.meu-paragrafo-pony {
+    text-align: justify;
+    font-size: 1.8em;
+}
+
+.div-pony {
+    flex: 0 0 auto;         
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(248, 131, 166, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 250px;       
+    transition: transform 0.3s;
+}
+
+.personagens-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;       
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.personagem-pony {
+  flex: 0 0 auto;         
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(248, 131, 166, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 250px;       
+  transition: transform 0.3s;
+}
+
+.personagem-pony img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: rgba(252, 98, 149, 0.5);
+  padding: 5px;
+}
+
+.descricao {
+  color: white;
+  max-width: 140px;
+  font-size: 14px;
+}
+
+.personagem-pony:hover {
   transform: scale(1.05);
 }
