@@ -5,11 +5,31 @@ body {
     background-color: #111;
     color: white;
     text-align: center;
+    padding-top: 40px;
 }
+
+
+[id]::before {
+  content: "";          
+  display: block;       
+  height: 100px;         
+  margin-top: -80px;    
+  visibility: hidden;   
+}
+
 
 header {
     background: rgba(34, 34, 34, 0.5);
     padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+section, p {
+  scroll-margin-top: 40px;
 }
 
 header h1 {
@@ -19,6 +39,8 @@ header h1 {
 header nav a {
     color: #ffcc00;
     text-decoration: none;
+    padding: 10px 15px;
+  margin-right: 20px;
 }
 
 section {
@@ -28,7 +50,7 @@ section {
 }
 
 h2 {
-    color: #ffcc00;
+  color: #ffcc00;
 }
 
 .meu-paragrafo {
