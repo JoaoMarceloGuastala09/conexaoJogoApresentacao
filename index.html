@@ -9,6 +9,24 @@
 <body class="index-page">
   <header>
     <h1>Sejam bem-vindos ao nosso site de jogos!</h1>
+    <audio id="guarana">
+      <source src="GuaranaCorreto.mp3" type="audio/mpeg">
+      Seu navegador não suporta esse elemento de áudio
+    </audio>
+    
+    <button id="tocarGUarana">
+      <img src="imgs/Hornet_Idle.webp" alt="Hornet" class="easter-egg-2">
+    </button>
+    
+    <script>
+      const meuAudio = document.getElementById('guarana');
+      const botaoTocarSom = document.getElementById('tocarGUarana');
+    
+      botaoTocarSom.addEventListener('click', function() {
+        meuAudio.play(); 
+      });
+    </script>
+    
   </header>
 
   <section class="menu">
